@@ -1,0 +1,54 @@
+*{
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body{
+    background-color: #272733;
+}
+
+.loginform{
+    width: 35%;
+    height: 320px;
+    background-color: #FCFCFC;;
+    margin: 13% auto;
+    border-radius: 2%;
+}
+.heading{
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.button1{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button1 button{
+    width: 92%;
+    height: 40px;
+    background-color: #38BE99;
+    border: none;
+    color: white;
+}
+
+.button1 button:hover{
+    background-color: rgb(74, 236, 190);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .loginform {width: 80%;}
+    .loginform { margin: 50% auto;}
+}
+
+@media screen and (max-width: 800px) {
+    .loginform {width: 80%;}
+    .loginform { margin: 50% auto;}
+}
+
+
