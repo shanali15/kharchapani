@@ -32,7 +32,8 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
     
         $mail->isHTML(true);
         $mail->Subject = 'Reset Password';
-        //    $mail->Body='Name :'.$name.'<br>Email :'.$email.'<br>Subject :'.$subject.'<br>Message: '.':'.$message;
+
+
         $mail->Body = 'To Reset Password copy the code and paste it "'.$randkey.'" ';
     
         if (!$mail->Send()) {
