@@ -40,9 +40,6 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
             
         } else {
            $data = "mail sent";}
-        
-    
-    
         }else{
             $data = "THIS EMAIL DOESNT EXIST";
         }
@@ -50,6 +47,4 @@ if($_SERVER['REQUEST_METHOD']=='POST') {
     $jsonObj->data = $data;
     echo json_encode($jsonObj);
     }
-    
-    
     ?>
